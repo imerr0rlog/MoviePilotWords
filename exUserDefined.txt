@@ -1,0 +1,14 @@
+Kansai\ TV => KansaiTV
+Apple.TV\+ => AppleTV+
+HEVC => H265
+hevc => H265
+4K => 2160p
+4k => 2160p
+\.\. => \.
+第.{1}(\d+).{1}集 => 第\1集
+\.(\d{8})\. => .#\1#.
+\.(\d{6})\. => .#\1#.
+HOY\.TV => HOYTV
+ＷＯＷＯＷ => WOWOW
+friDay => Friday
+/Unrated\s?Cut/i => UnratedCut
