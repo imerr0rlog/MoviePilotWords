@@ -1,18 +1,38 @@
+# 电视台名称替换
 (?i)Kansai\ TV => KansaiTV
+(?i)HOY\.TV => HOYTV
+ＷＯＷＯＷ => WOWOW
+
+# 流媒体平台替换
 (?i)Apple.TV\+ => AppleTV+
+(?i)HamiVideo => HamiVideo
+(?i)myTVS => myTVS
+(?i)Friday => Friday
+
+# 视频编码格式替换
 (?i)HEVC => H265
 (?i)4K => 2160p
+
+# 特殊符号处理
 \.\. => \.
+
+# 剧集标题格式化
 第.{1}(\d+).{1}集 => 第\1集
 \.(\d{8})\. => .#\1#.
 \.(\d{6})\. => .#\1#.
-(?i)HOY\.TV => HOYTV
-ＷＯＷＯＷ => WOWOW
-(?i)friDay => Friday
+
+# 视频版本标记
 (?i)Unrated\s?Cut => UnratedCut
 (?i)REPACK => REPACK
+(?i)Remastered => Remastered
+
+# 视频质量标记
 (?i)60FPS => 60FPS
 (?i)52PT => 52PT
-(?i)HamiVideo => HamiVideo
-(?i)myTVS => myTVS
 (?i)Blu.?Ray => BluRay
+
+# HDR格式标记
+(?i)HDR.?10 => HDR10
+(?i)HDR.?10\+ => HDR10+
+(?i)HDR.?10\s?Plus => HDR10+
+(?i)HDR.?10\s?MAX => HDR10MAX
