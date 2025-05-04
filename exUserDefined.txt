@@ -25,6 +25,7 @@
 (?i)Unrated\s?Cut => UnratedCut
 (?i)REPACK => REPACK
 (?i)Remastered => Remastered
+(?i)REMUX => REMUX
 
 # 视频质量标记
 (?i)60FPS => 60FPS
