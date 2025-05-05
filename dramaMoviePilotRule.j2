@@ -1,7 +1,7 @@
 [{{title|replace(':','：')|replace('： ','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
 {% if title == original_title %}
 {% if title != en_title %}
-[{{en_title|replace('：',':')|replace(':','.')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
+[{{en_title|replace('：',':')|replace(':','.')|replace(' ', '.')|replace('..','.')|replace(',.',',')|replace('【', '')|replace('】', '')}}]
 {% endif %}
 {% else %}
 [{{original_title|replace(':','：')|replace('： ','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
@@ -10,7 +10,7 @@
 [{{title|replace(':','：')|replace('： ','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
 {% if title == original_title %}
 {% if title != en_title %}
-[{{en_title|replace('：',':')|replace(':','.')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
+[{{en_title|replace('：',':')|replace(':','.')|replace(' ', '.')|replace('..','.')|replace(',.',',')|replace('【', '')|replace('】', '')}}]
 {% endif %}
 {% else %}
 [{{original_title|replace(':','：')|replace('： ','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
@@ -26,7 +26,7 @@
 [{{title|replace(':','：')|replace('： ','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
 {% if title == original_title %}
 {% if title != en_title %}
-[{{en_title|replace('：',':')|replace(':','.')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
+[{{en_title|replace('：',':')|replace(':','.')|replace(' ', '.')|replace('..','.')|replace(',.',',')|replace('【', '')|replace('】', '')}}]
 {% endif %}
 {% else %}
 [{{original_title|replace(':','：')|replace('： ','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
@@ -49,7 +49,7 @@
 {{title|replace(':','：')|replace('： ','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}
 {% if en_title %}
 {% if title != en_title %}
-.{{en_title|replace('：',':')|replace(':','.')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}
+.{{en_title|replace('：',':')|replace(':','.')|replace(' ', '.')|replace('..','.')|replace(',.',',')|replace('【', '')|replace('】', '')}}
 {% endif %}
 {% endif %}
 {% if season_year %}.{{season_year}}{% endif %}
