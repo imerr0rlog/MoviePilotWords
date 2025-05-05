@@ -1,0 +1,54 @@
+[{{title|replace(':','：')|replace('： ','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
+{% if title == original_title %}
+{% if title != en_title %}
+[{{en_title|replace('：',':')|replace(':','.')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
+{% endif %}
+{% else %}
+[{{original_title|replace(':','：')|replace('： ','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
+{% endif %}/
+{% if year %}[{{year}}]{% endif %}
+[{{title|replace(':','：')|replace('： ','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
+{% if title == original_title %}
+{% if title != en_title %}
+[{{en_title|replace('：',':')|replace(':','.')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
+{% endif %}
+{% else %}
+[{{original_title|replace(':','：')|replace('： ','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
+{% endif %}/
+{% if year %}[{{year}}]{% endif %}
+[{{title|replace(':','：')|replace('： ','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
+{% if title == original_title %}
+{% if title != en_title %}
+[{{en_title|replace('：',':')|replace(':','.')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
+{% endif %}
+{% else %}
+[{{original_title|replace(':','：')|replace('： ','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}]
+{% endif %}
+{% if videoFormat %}[{{videoFormat}}]{% endif %}
+{% if resourceType %}[{{resourceType|replace(' ', '][')}}]{% endif %}
+{% if effect %}[{{effect|replace(' ', '][')}}]{% endif %}
+{% if releaseGroup %}
+[{{releaseGroup}}]
+{% else %}
+[UNKGROUP]
+{% endif %}/
+{{title|replace(':','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}
+{% if en_title %}
+{% if title != en_title %}
+.{{en_title|replace('：',':')|replace(':','.')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}
+{% endif %}
+{% endif %}
+{% if part %}.{{part}}{% endif %}
+{% if year %}.{{year}}{% endif %}
+{% if videoFormat %}.{{videoFormat}}{% endif %}
+{% if tmdbid %}.tmdb{{tmdbid}}{% endif %}
+{% if customization %}.{{customization|replace(' ', '.')|replace('@', '.')|replace('#', '')|replace('..','.')}}{% endif %}
+{% if edition %}.{{edition|replace(' ', '.')}}{% endif %}
+{% if videoCodec %}.{{videoCodec|replace(' ', '.')|replace('..','.')}}{% endif %}
+{% if audioCodec %}.{{audioCodec|replace(' ', '.')|replace('..','.')}}{% endif %}
+{% if releaseGroup %}
+-{{releaseGroup}}
+{% else %}
+-UNKGROUP
+{% endif %}
+{{fileExt}}
