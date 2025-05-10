@@ -1,6 +1,7 @@
 # 电视台名称替换
 (?i)Kansai\ TV => KansaiTV
 (?i)HOY\.TV => HOYTV
+(?i)TVB.?Plus => TVB+
 ＷＯＷＯＷ => WOWOW
 
 # 流媒体平台替换
