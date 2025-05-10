@@ -37,3 +37,5 @@
 (?i)HDR.?10\+ => HDR10+
 (?i)HDR.?10\s?Plus => HDR10+
 (?i)HDR.?10\s?MAX => HDR10MAX
+
+(?i)Criterion.?Collection => (?i)Criterion.Collection
