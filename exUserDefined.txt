@@ -10,6 +10,7 @@
 (?i)myTVS => myTVS
 (?i)Friday => Friday
 (?i)Animax => Animax
+(?i)Vivid => Vivid
 
 # 视频编码格式替换
 (?i)HEVC => H265
