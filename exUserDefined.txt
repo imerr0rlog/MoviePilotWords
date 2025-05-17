@@ -2,6 +2,7 @@
 (?i)Kansai\ TV => KansaiTV
 (?i)HOY\.TV => HOYTV
 (?i)TVB.?Plus => TVB+
+(?i)NHK.?G => NHK-G
 ＷＯＷＯＷ => WOWOW
 
 # 流媒体平台替换
