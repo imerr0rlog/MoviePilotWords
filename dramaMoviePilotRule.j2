@@ -71,6 +71,7 @@ E{{episode}}
 {% if episode_title %}.~{{episode_title|replace(':','：')|replace(' ', '.')|replace('..','.')|replace('【', '')|replace('】', '')}}~{% endif %}
 {% if videoFormat %}.{{videoFormat}}{% endif %}
 {% if tmdbid %}.tmdb{{tmdbid}}{% endif %}
+{% if doubanid %}.douban{{doubanid}}{% endif %}
 {% if customization %}.{{customization|replace(' ', '.')|replace('@', '.')|replace('#', '')|replace('..','.')}}{% endif %}
 {% if edition %}.{{edition|replace(' ', '.')}}{% endif %}
 {% if videoCodec %}.{{videoCodec|replace(' ', '.')|replace('..','.')}}{% endif %}
