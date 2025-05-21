@@ -12,6 +12,8 @@
 (?i)Friday => Friday
 (?i)Animax => Animax
 (?i)Vivid => Vivid
+(?i)HuluJP => HuluJP
+(?i)NowPlayer => NowPlayer
 
 # 视频编码格式替换
 (?i)HEVC => H265
