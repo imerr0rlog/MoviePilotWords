@@ -14,6 +14,7 @@
 (?i)Vivid => Vivid
 (?i)HuluJP => HuluJP
 (?i)NowPlayer => NowPlayer
+(?i)Viu(TV)? => ViuTV
 
 # 视频编码格式替换
 (?i)HEVC => H265
